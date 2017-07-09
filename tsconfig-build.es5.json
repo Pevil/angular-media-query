@@ -6,7 +6,7 @@
     "angularCompilerOptions": {
         "strictMetadataEmit": true,
         "skipTemplateCodegen": true,
-        "flatModuleOutFile": "angular-media-query.js",
-        "flatModuleId": "angular-media-query"
+        "flatModuleOutFile": "media-query.js",
+        "flatModuleId": "media-query"
     }
 }

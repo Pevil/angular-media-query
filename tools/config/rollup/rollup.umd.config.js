@@ -1,8 +1,8 @@
 export default {
     entry: './build/index.js',
-    dest: './dist/bundles/angular-media-query.umd.js',
+    dest: './dist/bundles/media-query.umd.js',
     format: 'umd',
-    moduleName: 'angular-media-query',
+    moduleName: 'media-query',
     external: [
         '@angular/core',
         '@angular/common',

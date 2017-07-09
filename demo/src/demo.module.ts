@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { NgMediaQueryModule } from 'angular-media-query';
+import { NgMediaQueryModule } from '@pevil/media-query';
 
 import { DemoComponent } from './demo.component';
 

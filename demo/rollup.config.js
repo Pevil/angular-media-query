@@ -11,7 +11,7 @@ export default {
       include: 'node_modules/**'
     }),
     alias({
-        'angular-media-query': 'dist/angular-media-query.js'
+        '@pevil/media-query': 'dist/media-query.js'
     }),
     nodeResolve({
       es2015: true, jsnext: true, main: true
