@@ -14,7 +14,8 @@ First import the MediaQueryModule,
 import { MediaQueryModule } from '@pevil/media-query';
 
 @NgModule({
-    imports: [MediaQueryModule]
+    imports: [MediaQueryModule],
+    exports: [MediaQueryModule] //if added to a SharedModule
 })
 export class SharedModule {}
 ```
