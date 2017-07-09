@@ -3,7 +3,7 @@ import { Component, DebugElement, ViewChild } from '@angular/core';
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 import { By } from '@angular/platform-browser';
 
-import { NgMediaQueryModule, MediaQueryDirective } from '../index';
+import { MediaQueryModule, MediaQueryDirective } from '../index';
 
 @Component({
     selector: 'test',

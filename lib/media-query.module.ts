@@ -6,5 +6,5 @@ import { MediaQueryDirective } from './media-query.directive';
     declarations: [MediaQueryDirective],
     exports: [MediaQueryDirective]
 })
-export class NgMediaQueryModule {
+export class MediaQueryModule {
 }
