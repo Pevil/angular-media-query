@@ -26,7 +26,7 @@
     "angularCompilerOptions": {
         "strictMetadataEmit": true,
         "skipTemplateCodegen": true,
-        "flatModuleOutFile": "angular-kalendar.js",
-        "flatModuleId": "angular-kalendar"
+        "flatModuleOutFile": "angular-media-query.js",
+        "flatModuleId": "angular-media-query"
     }
 }

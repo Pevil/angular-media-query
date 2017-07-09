@@ -1,0 +1,16 @@
+{
+    "extends": "../tsconfig.json",
+    "compilerOptions": {
+        "target": "es2015",
+        "module": "es2015",
+        "outDir": "./dist",
+        "baseUrl": ".",
+        "paths": {
+            "angular-media-query": ["../dist/angular-media-query"]
+        }
+    },
+    "compileOnSave": false,
+    "files": [
+        "src/main.ts"
+    ]
+}
