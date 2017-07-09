@@ -54,6 +54,10 @@
     "url": "https://github.com/PeterLaraia/angular-media-query/issues"
   },
   "homepage": "https://github.com/PeterLaraia/angular-media-query#readme",
+  "peerDependencies": {
+    "@angular/core": ">=4.2.6",
+    "rxjs": ">=5.4.2"
+  },
   "devDependencies": {
     "@angular/common": "^4.2.6",
     "@angular/compiler": "^4.2.6",
@@ -84,9 +88,7 @@
     "rollup-plugin-alias": "^1.3.1",
     "rollup-plugin-commonjs": "^8.0.2",
     "rollup-plugin-node-resolve-angular": "^2.0.3",
-    "rollup-plugin-typescript": "^0.8.1",
     "rxjs": "^5.4.2",
-    "rxjs-es": "^5.0.0-beta.12",
     "systemjs": "^0.20.14",
     "ts-node": "^3.2.0",
     "tslib": "^1.7.1",
