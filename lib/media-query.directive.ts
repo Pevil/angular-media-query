@@ -4,7 +4,8 @@ import { Observable } from 'rxjs/Observable';
 import 'rxjs/add/observable/fromEventPattern';
 
 @Directive({
-    selector: '[ifMediaQuery]'
+    selector: '[ifMediaQuery]',
+    exportAs: 'ifMediaQuery'
 })
 export class MediaQueryDirective implements OnDestroy {
     private mq: MediaQueryList;
@@ -46,7 +47,7 @@ export class MediaQueryDirective implements OnDestroy {
         this.mq = null;
     }
 
-    private handleMediaQuery = (mq) => {
+    private handleMediaQuery = (mq: MediaQueryList) => {
         this.zone.run(() => this.onChanges(mq.matches));
     }
 

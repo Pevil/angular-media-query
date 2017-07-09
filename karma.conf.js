@@ -42,7 +42,18 @@ module.exports = function(config) {
         logLevel: config.LOG_INFO,
         colors: true,
         autoWatch: true,
-        browsers: ['Chrome'],
+        browsers: ['mobile', 'desktop'],
+
+        customLaunchers: {
+            mobile: {
+                base: 'Chrome',
+                flags: ['--window-size=320,600']
+            },
+            desktop: {
+                base: 'Chrome',
+                flags: ['--window-size=800,600']
+            }
+        },
 
         plugins: [
             'karma-jasmine',
@@ -81,18 +92,18 @@ module.exports = function(config) {
                 global: {
                     statements: 90,
                     branches: 90,
-                    lines: 70,
+                    lines: 90,
                     functions: 90
                 },
                 each: {
                     statements: 80,
                     branches: 80,
-                    lines: 60,
+                    lines: 80,
                     functions: 80
                 }
             }
         },
 
-        singleRun: false
+        singleRun: true
     })
 }

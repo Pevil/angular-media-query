@@ -1,2 +1,2 @@
-export { NgMediaQueryModule } from './angular-media-query.module';
-export { MediaQueryDirective } from './angular-media-query.directive';
+export { NgMediaQueryModule } from './media-query.module';
+export { MediaQueryDirective } from './media-query.directive';

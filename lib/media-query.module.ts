@@ -1,5 +1,5 @@
 import { NgModule } from '@angular/core';
-import { MediaQueryDirective } from './angular-media-query.directive';
+import { MediaQueryDirective } from './media-query.directive';
 
 
 @NgModule({
