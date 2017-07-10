@@ -7,6 +7,6 @@
         "strictMetadataEmit": true,
         "skipTemplateCodegen": true,
         "flatModuleOutFile": "media-query.js",
-        "flatModuleId": "media-query"
+        "flatModuleId": "@pevil/media-query"
     }
 }
