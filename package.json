@@ -1,6 +1,6 @@
 {
   "name": "@pevil/media-query",
-  "version": "1.0.0-beta-1",
+  "version": "1.0.0",
   "description": "Conditionally render dom elements based on media queries in Angular2+",
   "main": "bundles/media-query.umd.js",
   "module": "media-query.es5.js",
@@ -49,7 +49,7 @@
     "mobile"
   ],
   "author": "Peter Laraia",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/PeterLaraia/angular-media-query/issues"
   },

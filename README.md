@@ -1,6 +1,6 @@
 # Angular Media Queries
 
-Similar to the *ngIf structural directives, only render dom elements if they match a media query using the *ifMediaQuery directive
+Similar to the *ngIf structural directive, only render dom elements if they match a media query using the *ifMediaQuery directive
 
 ## Install
 
@@ -25,6 +25,10 @@ then use it in your html template:
 ```
 <img *ifMediaQuery="'(min-width: 470px)'" [src]="item?.imageUrl"
 ```
+
+## Example
+
+https://embed.plnkr.co/Cn2BvZlcCSXehPrSDZcO/
 
 
 
